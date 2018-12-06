@@ -6,6 +6,7 @@ import About from './About';
 import Footer from './footer';
 import LoginModal from './modals/loginModal';
 import Updates from './Updates';
+import SignUpModal from './modals/SignUpModal';
 
 
 class Navigation extends Component {
@@ -19,6 +20,7 @@ class Navigation extends Component {
                 <Updates />
                 <Footer />
                 <LoginModal />
+                <SignUpModal />
             </ React.Fragment>
         )
     }
